@@ -45,12 +45,40 @@
   
   /* Main Site Content
   --------------------------------------------- */
+
+
   .site-main {
-    border: red 1px solid;
+    width: 100%;
     padding: 2rem;
+    margin-right: auto;
+    margin-left: auto;
   }
   
+  @media only screen and (min-width: 576px) {
+    .site-main {
+      max-width: 540px;
+    }
+  }
+
+  @media only screen and (min-width: 768px) {
+    .site-main {
+      max-width: 720px;
+    }
+  }
+
+  @media only screen and (min-width: 992px) {
+    .site-main {
+      max-width: 960px;
+    }
+  }
+
+  @media only screen and (min-width: 1200px) {
+    .site-main {
+      max-width: 1140px;
+    }
+  }
   
+
   /* Footer
   --------------------------------------------- */
   .site-footer {
